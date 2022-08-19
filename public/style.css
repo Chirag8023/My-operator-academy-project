@@ -21,7 +21,7 @@ body{
     margin: 10px;
 }
 .container{
-   
+    background-color: #00000063;
     width: 500px;
     border-width: 12ch;
 }
