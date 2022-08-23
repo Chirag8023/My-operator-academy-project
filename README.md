@@ -1,42 +1,5 @@
-# Operator Academy Project Template
+# Simple Login App Project <br> <br>
 
-Welcome to Week 6, the project week! During this week, we'll put together everything we've learned during Operator Academy to build a final project.
-
-This repository contains a template to use for your final project. Keep reading to learn about how the project works, and what you should do to complete the project assignment.
-
-- [Operator Academy Project Template](#operator-academy-project-template)
-  - [Quick Summary:](#quick-summary)
-  - [The project template](#the-project-template)
-  - [Getting the project](#getting-the-project)
-  - [Setting up the project](#setting-up-the-project)
-  - [Working on the project](#working-on-the-project)
-    - [What should I build?](#what-should-i-build)
-  - [Completing the project](#completing-the-project)
-
-## Quick Summary:
-
-- Use this template to start your Operator Academy project.
-- `npm install` and `npm start` to run the project.
-- Push your changes to your own GitHub repository, and submit the assignment in the Operator Console **by August 25th**.
-
-## The project template
-
-This project is a Node.js Express application. 
-- `Express` is a minimal web framework for Node.js that lets us define `handlers` (functions) for `routes` (URLs). If this is new to you, check out the [recording for Class 5](https://www.twitch.tv/videos/1555969207).
-- The project includes `twilio` and `axios`:
-  - You can use `twilio` to integrate Twilio into your project.
-  - `axios` is a library for making HTTP requests. We can use it to make HTTP requests in our code, a bit like using `curl` but in `Node.js`. 
-- The application has three `routes`: two GET and one POST.
-- The root `/` route simply responds with `Hello World`.
-- The `/github` route is a **dynamic** route. It uses the next part of the URL in the handler to make a request to the GitHub API. This is an example of using other APIs from our own code, using Axios.
-- The `/sms` route is similar to the POST route from the Twilio SMS mission you would have seen in Week 5 of TwilioQuest. It's provided as a starting point for using Twilio in your project.
-- The project uses `nodemon` so you don't have to restart the application everytime you make a change: it will automatically restart.
-
-## Getting the project
-
-This project is a GitHub Template Repository. You can make a copy of this template in your own repository by clicking the green "Use this template" button. You can read more [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template). When you make the repository, please make it **Public**: we will need to be able to see the repository when you submit it for your assignment later.
-
-Once you have created the repository from the template, you can **Clone** the repository to your machine by running `git clone` in your terminal. If you need a reminder of how `git clone` works, check out the [Week 3](https://www.twitch.tv/videos/1542471356) recording.
 
 
 ## Setting up the project
